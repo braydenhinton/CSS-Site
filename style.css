@@ -1,0 +1,43 @@
+body {
+    background-color: aquamarine;
+}
+h1 {
+    color: blueviolet;
+    font-family: fantasy;
+    text-align: center;
+    font-size: 65pt; 
+}
+a:link {
+    color: crimson;
+}
+a:visited {
+    color: darkgreen
+}
+a:hover {
+    color: #eb00ff
+}
+a {
+    text-decoration: none;
+    font-size: 38pt;
+}
+div.header {
+    width: 90%;
+    background-color: coral;
+    text-decoration-color: coral;
+}
+div.left {
+    display: white;
+    width: 50%;
+    height: 600px;
+    background-color: aquamarine;
+}
+div.right{
+    display: 50%;
+    height: 50;
+    background-color: #aaaaff
+}
+div.footer {
+    display: block;
+    width: 100%;
+    background-color: antiquewhite;
+}
