@@ -7,37 +7,42 @@ h1 {
     text-align: center;
     font-size: 65pt; 
 }
+*{
+    margin: 0px;
+    padding: 0px;
+}
 a:link {
     color: crimson;
 }
 a:visited {
-    color: darkgreen
+    color: darkgreen;
 }
 a:hover {
-    color: #eb00ff
+    color: #eb00ff;
 }
 a {
     text-decoration: none;
     font-size: 38pt;
 }
 div.header {
-    width: 90%;
+    width: 100%;
     background-color: coral;
     text-decoration-color: coral;
 }
 div.left {
-    display: white;
+    float: left;
     width: 50%;
     height: 600px;
     background-color: aquamarine;
 }
-div.right{
-    display: 50%;
-    height: 50;
-    background-color: #aaaaff
+div.right {
+    float: right;
+    width: 50%;
+    height: 600px;
+    background-color: #aaaaff;
 }
 div.footer {
-    display: block;
+    display: inline-block;
     width: 100%;
     background-color: antiquewhite;
 }
