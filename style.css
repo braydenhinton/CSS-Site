@@ -33,7 +33,7 @@ div.left {
     float: left;
     width: 50%;
     height: 600px;
-    background-color: aquamarine;
+    background-color: darkgreen;
 }
 div.right {
     float: right;
@@ -44,5 +44,6 @@ div.right {
 div.footer {
     display: inline-block;
     width: 100%;
-    background-color: antiquewhite;
+    height: 200px;
+    background-color: #ff9200;
 }
